@@ -1,0 +1,23 @@
+div.painel {
+    color:white;
+    display: flex;
+    /*muda a posição da letra ou nao*/
+     flex-direction: row;
+    background-color: yellow;
+    padding:10px;
+    /*manter o <div> na linha*/
+    flex-wrap: wrap;
+    /*separa as letras*/
+    justify-content: space-around;
+    gap:300px;
+    font-size: 30px;
+    align-items:center;
+  }
+
+  div.boxfloat {
+    color:black;
+    background: white;
+    text-align: justify;
+    width: 250px;
+    float:right;
+    }
